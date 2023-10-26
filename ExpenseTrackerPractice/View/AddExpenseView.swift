@@ -20,7 +20,28 @@ struct AddExpenseView: View {
     @State private var category: Category?
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                
+            }
+            .navigationTitle("Add Expense")
+            .toolbar {
+                /// Cancel & Add Button
+                ToolbarItem(placement: .topBarLeading) {
+                    Button("Cancel") {
+                        dismiss()
+                    }
+                    .tint(.red)
+                }
+                
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Add") {
+                        
+                    }
+                }
+            }
+        }
+        
     }
 }
 
