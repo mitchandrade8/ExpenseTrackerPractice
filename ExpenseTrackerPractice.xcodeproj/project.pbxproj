@@ -15,6 +15,7 @@
 		743127532AEAD8CA0025BB3E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127522AEAD8CA0025BB3E /* Category.swift */; };
 		743127552AEADAEF0025BB3E /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127542AEADAEF0025BB3E /* ExpensesView.swift */; };
 		743127572AEADB020025BB3E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127562AEADB020025BB3E /* CategoriesView.swift */; };
+		743127592AEAEA770025BB3E /* GroupedExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127582AEAEA770025BB3E /* GroupedExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		743127522AEAD8CA0025BB3E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		743127542AEADAEF0025BB3E /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
 		743127562AEADB020025BB3E /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		743127582AEAEA770025BB3E /* GroupedExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				743127502AE9E7640025BB3E /* Expense.swift */,
 				743127522AEAD8CA0025BB3E /* Category.swift */,
+				743127582AEAEA770025BB3E /* GroupedExpense.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				743127512AE9E7640025BB3E /* Expense.swift in Sources */,
 				743127432AE9E6BB0025BB3E /* ContentView.swift in Sources */,
+				743127592AEAEA770025BB3E /* GroupedExpense.swift in Sources */,
 				743127572AEADB020025BB3E /* CategoriesView.swift in Sources */,
 				743127412AE9E6BB0025BB3E /* ExpenseTrackerPracticeApp.swift in Sources */,
 				743127552AEADAEF0025BB3E /* ExpensesView.swift in Sources */,
