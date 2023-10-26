@@ -13,6 +13,8 @@
 		743127482AE9E6BD0025BB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743127472AE9E6BD0025BB3E /* Preview Assets.xcassets */; };
 		743127512AE9E7640025BB3E /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127502AE9E7640025BB3E /* Expense.swift */; };
 		743127532AEAD8CA0025BB3E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127522AEAD8CA0025BB3E /* Category.swift */; };
+		743127552AEADAEF0025BB3E /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127542AEADAEF0025BB3E /* ExpensesView.swift */; };
+		743127572AEADB020025BB3E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127562AEADB020025BB3E /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		743127472AE9E6BD0025BB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		743127502AE9E7640025BB3E /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		743127522AEAD8CA0025BB3E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		743127542AEADAEF0025BB3E /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		743127562AEADB020025BB3E /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		7431274F2AE9E74B0025BB3E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				743127542AEADAEF0025BB3E /* ExpensesView.swift */,
+				743127562AEADB020025BB3E /* CategoriesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 			files = (
 				743127512AE9E7640025BB3E /* Expense.swift in Sources */,
 				743127432AE9E6BB0025BB3E /* ContentView.swift in Sources */,
+				743127572AEADB020025BB3E /* CategoriesView.swift in Sources */,
 				743127412AE9E6BB0025BB3E /* ExpenseTrackerPracticeApp.swift in Sources */,
+				743127552AEADAEF0025BB3E /* ExpensesView.swift in Sources */,
 				743127532AEAD8CA0025BB3E /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
