@@ -96,7 +96,11 @@ struct AddExpenseView: View {
     
     /// Adding Expense to the Swift Data
     func addExpense() {
+        let expense = Expense(title: title, subTitle: subTitle, amount: amount, date: date, category: category)
+        context.insert(expense)
         
+        /// Closing the View, Once the Data has been persisted successfully
+        dismiss()
     }
     
     /// Decimal Formatter

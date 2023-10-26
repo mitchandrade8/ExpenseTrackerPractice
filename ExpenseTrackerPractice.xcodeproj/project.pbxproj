@@ -17,6 +17,7 @@
 		743127572AEADB020025BB3E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127562AEADB020025BB3E /* CategoriesView.swift */; };
 		743127592AEAEA770025BB3E /* GroupedExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743127582AEAEA770025BB3E /* GroupedExpense.swift */; };
 		7431275B2AEAF1660025BB3E /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431275A2AEAF1660025BB3E /* AddExpenseView.swift */; };
+		7431275D2AEB0AC60025BB3E /* ExpenseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7431275C2AEB0AC60025BB3E /* ExpenseCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		743127562AEADB020025BB3E /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		743127582AEAEA770025BB3E /* GroupedExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExpense.swift; sourceTree = "<group>"; };
 		7431275A2AEAF1660025BB3E /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		7431275C2AEB0AC60025BB3E /* ExpenseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				743127542AEADAEF0025BB3E /* ExpensesView.swift */,
 				743127562AEADB020025BB3E /* CategoriesView.swift */,
 				7431275A2AEAF1660025BB3E /* AddExpenseView.swift */,
+				7431275C2AEB0AC60025BB3E /* ExpenseCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				743127432AE9E6BB0025BB3E /* ContentView.swift in Sources */,
 				743127592AEAEA770025BB3E /* GroupedExpense.swift in Sources */,
 				7431275B2AEAF1660025BB3E /* AddExpenseView.swift in Sources */,
+				7431275D2AEB0AC60025BB3E /* ExpenseCardView.swift in Sources */,
 				743127572AEADB020025BB3E /* CategoriesView.swift in Sources */,
 				743127412AE9E6BB0025BB3E /* ExpenseTrackerPracticeApp.swift in Sources */,
 				743127552AEADAEF0025BB3E /* ExpensesView.swift in Sources */,
