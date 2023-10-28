@@ -13,7 +13,7 @@ struct ExpensesView: View {
     @Query(sort: [
         SortDescriptor(\Expense.date, order: .reverse)
     ], animation: .snappy) private var allExpenses: [Expense]
-    
+    @Environment(\.modelContext) private var context
     /// Grouped Expenses
     @State private var groupedExpenses: [GroupedExpenses] = []
     @State private var addExpense: Bool = false
@@ -25,6 +25,16 @@ struct ExpensesView: View {
                     Section(group.groupTitle) {
                         ForEach(group.expenses) { expense in
                             ExpenseCardView(expense: expense)
+                                .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                                    /// Delete Button
+                                    Button {
+                                        /// Deleting Data
+                                        context.delete(expense)
+                                    } label: {
+                                        Image(systemName: "trash")
+                                    }
+                                    .tint(.red)
+                                }
                         }
                     }
                 }
@@ -50,7 +60,7 @@ struct ExpensesView: View {
             }
         }
         .onChange(of: allExpenses, initial: true) { oldValue, newValue in
-            if groupedExpenses.isEmpty {
+            if newValue.count > oldValue.count || groupedExpenses.isEmpty {
                 createGroupedExpenses(newValue)
             }
         }
